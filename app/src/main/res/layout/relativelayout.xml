@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/red"
+        android:text="Red" />
+
+    <Button
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/orange"
+        android:text="ORANGE" />
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/yellow"
+        android:text="YELLOW" />
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@color/blue"
+        android:text="BLUE" />
+
+    <Button
+        android:id="@+id/green"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/blue"
+        android:layout_marginRight="10dp"
+        android:background="@color/green"
+        android:text="GREEN" />
+
+    <Button
+        android:id="@+id/indigo"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/blue"
+        android:layout_marginLeft="10dp"
+        android:background="@color/indigo"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/violet"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/violet"
+        android:text="VIOLET" />
+
+</RelativeLayout>
